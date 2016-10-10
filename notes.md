@@ -30,3 +30,24 @@ var myRegex = /[aeiou]/gi; // Change this line
 var result = myRegex.match(quoteSample).length; // Change this line
 
 ```
+
+## Match Letters of the Alphabet
+var alphabetRegex = /[a-z]/gi; // Change this line
+
+
+## Match Numbers and the Alphabet
+var myRegex = /[h-s2-6]/gi // Change this line
+
+
+## Match Single Characters Not Specified
+var myRegex = /[^0-9aeiou]/gi // Change this line
+
+## Occurs One or More Times
+var myRegex = /s+/g
+
+## Occurs Zero or More Times
+```
+var starWarsRegex = /Star Wars.*/;
+```
+
+## 
